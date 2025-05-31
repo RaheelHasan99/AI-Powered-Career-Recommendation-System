@@ -1,0 +1,201 @@
+Name,Education,Skills,Interests,Recommended_Career,Recommendation_Score,programming_skills,logical_thinking,math_score,problem_solving
+John Doe,Bachelor's,python;data analysis;machine learning,technology;data science,Data Scientist,0.95,9,9,9,5
+Jane Smith,Master's,java;system design;cloud computing,software development;ai,Software Engineer,0.9,9,5,6,9
+Bob Johnson,Bachelor's,graphic design;ui/ux;adobe creative suite,arts;digital media,UX Designer,0.88,5,5,3,3
+Emily Davis,Bachelor's,python;deep learning;statistics,healthcare;ai,AI Researcher,0.93,9,9,8,9
+Michael Brown,Master's,project management;communication;agile,business;management,Project Manager,0.87,3,5,5,2
+Sarah Wilson,Bachelor's,c++;embedded systems;iot,electronics;automation,Embedded Systems Engineer,0.91,8,3,2,3
+David Lee,Master's,sql;data warehousing;etl,finance;analytics,Data Analyst,0.89,2,9,2,9
+Laura Martinez,Bachelor's,content writing;seo;social media,marketing;communications,Digital Marketer,0.86,3,5,3,3
+Kevin White,Bachelor's,python;natural language processing;machine learning,linguistics;technology,NLP Engineer,0.92,9,8,9,6
+Karen Thompson,Master's,financial analysis;excel;econometrics,finance;data analysis,Financial Analyst,0.9,3,8,2,2
+Richard Anderson,PhD,research;statistical analysis;python,academia;biotech,Research Scientist,0.94,9,2,2,6
+Jessica Taylor,Bachelor's,html;css;javascript,web development;design,Front-end Developer,0.85,8,8,6,9
+Daniel Moore,Bachelor's,java;algorithms;data structures,software engineering;coding,Software Developer,0.88,8,2,2,2
+Olivia Jackson,Master's,data visualization;python;r,data analysis;statistics,Data Analyst,0.9,8,8,8,5
+William Martin,Master's,machine learning;big data;python,technology;innovation,Machine Learning Engineer,0.93,9,8,8,5
+Sophia Lee,Bachelor's,digital marketing;content creation;seo,marketing;social media,Digital Marketer,0.87,3,5,3,3
+James Perez,Bachelor's,python;data mining;statistics,data science;finance,Data Scientist,0.92,8,3,9,5
+Ava Thompson,Bachelor's,c#;.net;software design,technology;gaming,Software Developer,0.86,8,6,2,6
+Henry Gonzalez,Master's,project management;risk analysis;negotiation,business;management,Project Manager,0.89,3,6,6,2
+Mia Robinson,Bachelor's,user research;ux design;prototyping,design;technology,UX Designer,0.9,5,6,3,6
+Ethan Clark,Bachelor's,python;data analysis;sql,finance;analytics,Data Analyst,0.88,8,9,2,8
+Isabella Rodriguez,Master's,marketing strategy;digital marketing;crm,marketing;business,Marketing Manager,0.91,2,5,2,3
+Liam Lewis,Bachelor's,javascript;react;node.js,web development;technology,Full Stack Developer,0.87,8,3,3,5
+Chloe Walker,Master's,data science;machine learning;python,healthcare;ai,AI Specialist,0.92,9,9,8,9
+Noah Hall,Bachelor's,network security;linux;python,cybersecurity;technology,Cybersecurity Analyst,0.89,9,3,3,5
+Emma Allen,Master's,python;statistics;data mining,academia;research,Research Analyst,0.9,8,3,8,5
+Mason Young,Bachelor's,cloud computing;devops;python,technology;business,DevOps Engineer,0.91,8,5,5,6
+Harper King,Bachelor's,content creation;graphic design;adobe photoshop,digital media;marketing,Graphic Designer,0.86,6,6,2,2
+Lucas Wright,Master's,python;tensorflow;deep learning,technology;research,Deep Learning Engineer,0.93,9,8,2,6
+Amelia Scott,Bachelor's,sql;data warehousing;r,business;analytics,Business Analyst,0.88,2,8,3,9
+Oliver Green,Master's,java;spring;microservices,software engineering;finance,Backend Developer,0.89,8,3,3,2
+Grace Baker,Bachelor's,html;css;javascript;ux,web design;technology,Front-end Developer,0.85,9,9,6,9
+Elijah Adams,Master's,machine learning;r;python,biotech;data science,Biostatistician,0.92,8,9,9,5
+Lily Nelson,Bachelor's,digital illustration;adobe illustrator;creativity,arts;design,Graphic Designer,0.87,3,3,2,3
+Benjamin Carter,Master's,python;big data;machine learning,finance;technology,Data Engineer,0.91,9,9,8,5
+Ella Mitchell,Bachelor's,copywriting;seo;social media,marketing;content,Content Strategist,0.86,2,5,2,3
+Sebastian Perez,Master's,python;javascript;data visualization,analytics;business,Data Analyst,0.9,9,9,2,9
+Victoria Roberts,Bachelor's,business analysis;excel;sql,business;finance,Business Analyst,0.89,3,5,3,3
+Jack Turner,Bachelor's,python;automation;data analysis,technology;engineering,Automation Engineer,0.9,9,8,3,6
+Aria Phillips,Bachelor's,graphic design;ux/ui;adobe xd,digital media;design,UX Designer,0.88,5,6,2,3
+Samuel Campbell,Master's,python;machine learning;ai,technology;innovation,Machine Learning Engineer,0.93,9,8,8,8
+Zoe Parker,Bachelor's,digital marketing;analytics;seo,marketing;business,Digital Marketer,0.87,3,9,3,9
+Adam Evans,Master's,python;data analysis;r,finance;data science,Financial Analyst,0.9,9,9,9,6
+Natalie Edwards,Bachelor's,content writing;storytelling;seo,media;marketing,Content Strategist,0.86,2,5,2,2
+Aaron Collins,Bachelor's,java;android;ui design,mobile apps;technology,Mobile Developer,0.88,9,6,3,6
+Scarlett Stewart,Master's,ux research;prototyping;interaction design,design;user experience,UX Researcher,0.91,6,5,3,3
+Isaiah Sanchez,Bachelor's,python;cybersecurity;network security,technology;security,Cybersecurity Specialist,0.9,9,2,3,5
+Nora Morris,Bachelor's,sql;data analysis;excel,business;analytics,Data Analyst,0.87,3,9,2,9
+Julian Rogers,Master's,cloud computing;python;devops,technology;business,Cloud Engineer,0.91,8,5,6,5
+Stella Reed,Bachelor's,graphic design;illustration;adobe creative suite,arts;design,Graphic Designer,0.86,6,5,2,3
+Owen Parker,Bachelor's,python;data analysis;sql,finance;analytics,Data Analyst,0.9,8,9,3,8
+Chase Murphy,Bachelor's,java;spring;microservices,software engineering;technology,Backend Developer,0.89,9,3,2,5
+Aiden Cooper,Master's,python;machine learning;tensorflow,ai;innovation,Machine Learning Engineer,0.93,8,8,9,9
+Zachary Reed,Bachelor's,html;css;javascript,web development;design,Front-end Developer,0.85,8,8,5,9
+Madison Flores,Master's,digital marketing;seo;content strategy,marketing;social media,Digital Marketer,0.87,3,5,2,3
+Ethan Brooks,Bachelor's,sql;data warehousing;etl,finance;data analytics,Data Analyst,0.89,2,9,2,8
+Ava Jenkins,Bachelor's,graphic design;illustration;adobe illustrator,arts;design,Graphic Designer,0.86,5,5,2,2
+Lucas Powell,Master's,python;nlp;deep learning,ai;language,NLP Engineer,0.92,9,8,2,9
+Mia Simmons,Bachelor's,research;statistical analysis;r,academia;biotech,Research Scientist,0.94,2,2,3,3
+Benjamin Price,Master's,project management;agile;communication,business;management,Project Manager,0.87,3,6,5,2
+Liam King,Bachelor's,c++;embedded systems;iot,electronics;automation,Embedded Systems Engineer,0.91,8,3,3,3
+Sophia Griffin,Master's,python;data visualization;r,data analysis;statistics,Data Analyst,0.9,9,9,8,6
+Noah Wood,Bachelor's,java;algorithms;data structures,software development;coding,Software Developer,0.88,8,3,3,3
+Ella Ramirez,Bachelor's,ux research;prototyping;interaction design,design;user experience,UX Researcher,0.91,6,6,3,2
+William Simmons,Master's,cloud computing;devops;python,technology;business,DevOps Engineer,0.91,8,5,5,6
+Olivia Ward,Bachelor's,digital marketing;analytics;seo,marketing;business,Digital Marketer,0.87,2,8,3,9
+Jacob Stewart,Bachelor's,c#;.net;software design,technology;gaming,Software Developer,0.86,8,6,2,6
+Emily Torres,Master's,financial analysis;excel;econometrics,finance;data analysis,Financial Analyst,0.9,2,9,2,2
+Michael Watson,PhD,research;statistical analysis;python,academia;biotech,Research Scientist,0.94,8,3,2,6
+Grace Bell,Bachelor's,html;css;javascript;ux,web design;technology,Front-end Developer,0.85,8,9,5,9
+Samuel Bailey,Master's,machine learning;r;python,biotech;data science,Biostatistician,0.92,9,8,9,6
+Zoe Rivera,Bachelor's,content writing;storytelling;seo,media;marketing,Content Strategist,0.86,2,5,3,3
+Henry Cooper,Master's,python;big data;machine learning,finance;technology,Data Engineer,0.91,9,8,9,6
+Chloe Richardson,Bachelor's,digital illustration;adobe illustrator;creativity,arts;design,Graphic Designer,0.87,3,2,3,3
+Alexander Cox,Bachelor's,python;data mining;statistics,data science;finance,Data Scientist,0.92,9,2,9,6
+Victoria Ward,Master's,business analysis;excel;sql,business;finance,Business Analyst,0.89,3,6,2,2
+Daniel Foster,Bachelor's,python;automation;data analysis,technology;engineering,Automation Engineer,0.9,9,8,3,5
+Natalie Henderson,Bachelor's,copywriting;seo;social media,marketing;content,Content Strategist,0.86,2,6,3,2
+Matthew Bryant,Bachelor's,java;android;ui design,mobile apps;technology,Mobile Developer,0.88,8,6,3,5
+Lily Alexander,Master's,python;machine learning;ai,technology;innovation,Machine Learning Engineer,0.93,9,8,9,8
+Logan Carter,Bachelor's,sql;data analysis;excel,business;analytics,Data Analyst,0.88,3,8,3,8
+Amelia Morris,Master's,marketing strategy;digital marketing;crm,marketing;business,Marketing Manager,0.91,2,5,2,2
+Jackson Perez,Bachelor's,javascript;react;node.js,web development;technology,Full Stack Developer,0.87,9,3,2,5
+Avery Hughes,Master's,data science;machine learning;python,healthcare;ai,AI Specialist,0.92,8,8,9,8
+Sebastian Flores,Bachelor's,network security;linux;python,cybersecurity;technology,Cybersecurity Analyst,0.89,9,2,2,6
+Harper Hughes,Master's,python;statistics;data mining,academia;research,Research Analyst,0.9,9,3,8,6
+Owen Long,Bachelor's,cloud computing;python;devops,technology;business,Cloud Engineer,0.91,8,6,6,5
+Scarlett Foster,Bachelor's,graphic design;illustration;adobe creative suite,arts;design,Graphic Designer,0.86,6,6,2,2
+Gabriel Price,Master's,python;data analysis;sql,finance;analytics,Data Analyst,0.9,9,9,2,8
+Chase Bennett,Bachelor's,java;system design;cloud computing,software development;ai,Software Engineer,0.9,8,6,5,9
+Samantha Ross,Master's,python;deep learning;statistics,healthcare;ai,AI Researcher,0.93,8,8,9,9
+Nathan Rogers,Bachelor's,project management;communication;agile,business;management,Project Manager,0.87,3,6,5,3
+Aiden Reed,Bachelor's,c++;embedded systems;iot,electronics;automation,Embedded Systems Engineer,0.91,9,2,2,3
+Sofia Brooks,Master's,sql;data warehousing;etl,finance;analytics,Data Analyst,0.89,2,9,2,9
+Elijah Coleman,Bachelor's,html;css;javascript,web development;design,Front-end Developer,0.85,8,8,5,9
+Ava Henderson,Master's,digital marketing;seo;content creation,marketing;communications,Digital Marketer,0.87,3,5,2,2
+Caleb Perry,Bachelor's,python;natural language processing;machine learning,linguistics;technology,NLP Engineer,0.92,8,8,9,6
+Zoey Patterson,Master's,financial analysis;excel;econometrics,finance;data analysis,Financial Analyst,0.9,3,9,2,2
+Isaac Bailey,PhD,research;statistical analysis;python,academia;biotech,Research Scientist,0.94,8,3,2,5
+Evelyn Coleman,Bachelor's,html;css;javascript,web development;design,Front-end Developer,0.85,8,8,6,8
+Megan Fisher,Master's,python;data analysis;machine learning,technology;data science,Data Scientist,0.87,8,8,8,6
+Evan Ramirez,PhD,java;system design;cloud computing,software development;ai,Software Engineer,0.88,8,6,5,9
+Landon Carter,Bachelor's,graphic design;ui/ux;adobe creative suite,arts;digital media,UX Designer,0.89,5,6,3,2
+Hannah Rivera,Master's,html;css;javascript,healthcare;ai,AI Researcher,0.9,8,9,5,8
+Connor Brooks,PhD,c++;embedded systems;iot,business;management,Project Manager,0.91,8,5,5,2
+Aaliyah Perry,Bachelor's,sql;data warehousing;etl,finance;analytics,Embedded Systems Engineer,0.92,2,8,2,8
+Brandon Hayes,Master's,javascript;react;node.js,marketing;communications,Data Analyst,0.93,8,5,2,2
+Sydney Coleman,PhD,digital marketing;seo;content creation,cybersecurity;technology,Digital Marketer,0.94,3,3,2,6
+Dylan Bennett,Bachelor's,project management;agile;communication,academia;research,NLP Engineer,0.95,3,5,3,2
+Avery Sanders,Master's,python;deep learning;statistics,web development;design,Financial Analyst,0.85,8,9,8,5
+Chase Morgan,PhD,financial analysis;excel;econometrics,technology;data science,Research Scientist,0.86,2,2,8,6
+Sienna Price,Bachelor's,research;statistical analysis;python,software development;ai,Front-end Developer,0.87,9,3,3,8
+Hunter Patterson,Master's,cloud computing;devops;python,arts;digital media,Software Developer,0.88,8,2,5,6
+Riley Murphy,PhD,java;algorithms;data structures,healthcare;ai,Data Analyst,0.89,9,2,2,8
+Madeline Jenkins,Bachelor's,ux research;prototyping;interaction design,business;management,Machine Learning Engineer,0.9,6,6,6,2
+Adrian Collins,Master's,copywriting;seo;social media,finance;analytics,Digital Marketer,0.91,2,8,3,8
+Sophie Gray,PhD,network security;linux;python,marketing;communications,Data Scientist,0.92,8,5,2,6
+Jordan Long,Bachelor's,c#;.net;software design,cybersecurity;technology,Software Developer,0.93,9,6,2,6
+Brianna Foster,Master's,data visualization;python;r,academia;research,Project Manager,0.94,9,2,3,5
+Zane Powell,PhD,machine learning;big data;python,web development;design,UX Designer,0.95,8,9,9,5
+Molly Jenkins,Bachelor's,python;data analysis;machine learning,technology;data science,Data Analyst,0.85,8,9,8,5
+Austin Rivera,Master's,java;system design;cloud computing,software development;ai,Marketing Manager,0.86,8,5,6,9
+Paige Rogers,PhD,graphic design;ui/ux;adobe creative suite,arts;digital media,Full Stack Developer,0.87,6,6,2,2
+Cole Barnes,Bachelor's,html;css;javascript,healthcare;ai,AI Specialist,0.88,8,8,5,8
+Leah Butler,Master's,c++;embedded systems;iot,business;management,Cybersecurity Analyst,0.89,9,6,6,3
+Carter Brooks,PhD,sql;data warehousing;etl,finance;analytics,Research Analyst,0.9,2,9,3,8
+Eleanor Morris,Bachelor's,javascript;react;node.js,marketing;communications,DevOps Engineer,0.91,8,5,2,2
+Miles Rogers,Master's,digital marketing;seo;content creation,cybersecurity;technology,Graphic Designer,0.92,3,2,3,5
+Lucy Howard,PhD,project management;agile;communication,academia;research,Deep Learning Engineer,0.93,3,5,2,3
+Hunter Price,Bachelor's,python;deep learning;statistics,web development;design,Business Analyst,0.94,8,9,9,6
+Naomi Wright,Master's,financial analysis;excel;econometrics,technology;data science,Backend Developer,0.95,2,2,9,5
+Brandon Wood,PhD,research;statistical analysis;python,software development;ai,Front-end Developer,0.85,9,2,3,8
+Autumn Baker,Bachelor's,cloud computing;devops;python,arts;digital media,Biostatistician,0.86,9,2,5,5
+Grayson James,Master's,java;algorithms;data structures,healthcare;ai,Graphic Designer,0.87,9,2,3,8
+Mackenzie Perry,PhD,ux research;prototyping;interaction design,business;management,Data Engineer,0.88,6,6,6,2
+Jason Simmons,Bachelor's,copywriting;seo;social media,finance;analytics,Content Strategist,0.89,2,8,2,8
+Elena Coleman,Master's,network security;linux;python,marketing;communications,Data Analyst,0.9,9,5,2,6
+Tyler Carter,PhD,c#;.net;software design,cybersecurity;technology,Business Analyst,0.91,9,6,3,5
+Ruby Mitchell,Bachelor's,data visualization;python;r,academia;research,Automation Engineer,0.92,8,2,3,5
+Declan Adams,Master's,machine learning;big data;python,web development;design,UX Designer,0.93,9,9,8,5
+Lydia Edwards,PhD,python;data analysis;machine learning,technology;data science,Machine Learning Engineer,0.94,8,9,9,5
+Eric Hughes,Bachelor's,java;system design;cloud computing,software development;ai,Digital Marketer,0.95,8,6,6,8
+Melanie Nelson,Master's,graphic design;ui/ux;adobe creative suite,arts;digital media,Financial Analyst,0.85,5,6,3,3
+Julian Wright,PhD,html;css;javascript,healthcare;ai,Content Strategist,0.86,9,8,5,9
+Arianna Brooks,Bachelor's,c++;embedded systems;iot,business;management,Mobile Developer,0.87,9,6,6,2
+Cooper Bell,Master's,sql;data warehousing;etl,finance;analytics,UX Researcher,0.88,3,9,3,9
+Faith Parker,PhD,javascript;react;node.js,marketing;communications,Cybersecurity Specialist,0.89,9,6,2,2
+Maximillian Reed,Bachelor's,digital marketing;seo;content creation,cybersecurity;technology,Data Analyst,0.9,2,3,2,5
+Sadie Turner,Master's,project management;agile;communication,academia;research,Cloud Engineer,0.91,2,6,3,2
+Jaxon Carter,PhD,python;deep learning;statistics,web development;design,Graphic Designer,0.92,8,9,9,6
+Isabel Rivera,Bachelor's,financial analysis;excel;econometrics,technology;data science,Data Scientist,0.93,2,3,8,5
+Carson Flores,Master's,research;statistical analysis;python,software development;ai,Software Engineer,0.94,8,3,2,9
+Katherine Collins,PhD,cloud computing;devops;python,arts;digital media,UX Designer,0.95,8,2,6,5
+Leo Morgan,Bachelor's,java;algorithms;data structures,healthcare;ai,AI Researcher,0.85,9,2,3,8
+Ariella Perry,Master's,ux research;prototyping;interaction design,business;management,Project Manager,0.86,6,6,5,3
+Ryder Murphy,PhD,copywriting;seo;social media,finance;analytics,Embedded Systems Engineer,0.87,3,8,2,8
+Elise Bennett,Bachelor's,network security;linux;python,marketing;communications,Data Analyst,0.88,9,5,3,6
+Cameron Reed,Master's,c#;.net;software design,cybersecurity;technology,Digital Marketer,0.89,8,5,3,6
+Jasmine Edwards,PhD,data visualization;python;r,academia;research,NLP Engineer,0.9,9,2,2,5
+Parker Jenkins,Bachelor's,machine learning;big data;python,web development;design,Financial Analyst,0.91,8,9,8,6
+Nicole Hughes,Master's,python;data analysis;machine learning,technology;data science,Research Scientist,0.92,9,9,8,5
+Brady Price,PhD,java;system design;cloud computing,software development;ai,Front-end Developer,0.93,8,6,5,9
+Clara Ross,Bachelor's,graphic design;ui/ux;adobe creative suite,arts;digital media,Software Developer,0.94,5,6,3,3
+Silas Murphy,Master's,html;css;javascript,healthcare;ai,Data Analyst,0.95,9,8,5,8
+Paisley Rogers,PhD,c++;embedded systems;iot,business;management,Machine Learning Engineer,0.85,9,6,6,2
+Miles Foster,Bachelor's,sql;data warehousing;etl,finance;analytics,Digital Marketer,0.86,2,8,3,8
+Jade Wood,Master's,javascript;react;node.js,marketing;communications,Data Scientist,0.87,8,6,3,2
+Weston Perry,PhD,digital marketing;seo;content creation,cybersecurity;technology,Software Developer,0.88,3,3,3,6
+Aubrey Jenkins,Bachelor's,project management;agile;communication,academia;research,Project Manager,0.89,3,5,2,2
+Harrison Collins,Master's,python;deep learning;statistics,web development;design,UX Designer,0.9,9,9,8,5
+Luna Gray,PhD,financial analysis;excel;econometrics,technology;data science,Data Analyst,0.91,3,2,8,6
+Gavin Long,Bachelor's,research;statistical analysis;python,software development;ai,Marketing Manager,0.92,9,2,2,8
+Penelope Foster,Master's,cloud computing;devops;python,arts;digital media,Full Stack Developer,0.93,9,2,6,6
+Austin Powell,PhD,java;algorithms;data structures,healthcare;ai,AI Specialist,0.94,9,2,3,8
+Vivian Butler,Bachelor's,ux research;prototyping;interaction design,business;management,Cybersecurity Analyst,0.95,6,6,6,2
+Xavier Barnes,Master's,copywriting;seo;social media,finance;analytics,Research Analyst,0.85,3,8,3,8
+Stella James,PhD,network security;linux;python,marketing;communications,DevOps Engineer,0.86,8,6,2,6
+Caden Morgan,Bachelor's,c#;.net;software design,cybersecurity;technology,Graphic Designer,0.87,8,5,2,5
+Maya Ross,Master's,data visualization;python;r,academia;research,Deep Learning Engineer,0.88,9,3,2,5
+Jace Reed,PhD,machine learning;big data;python,web development;design,Business Analyst,0.89,8,8,8,5
+Kendall Rivera,Bachelor's,python;data analysis;machine learning,technology;data science,Backend Developer,0.9,8,9,9,5
+Rylan Perry,Master's,java;system design;cloud computing,software development;ai,Front-end Developer,0.91,8,6,6,9
+Adalyn Jenkins,PhD,graphic design;ui/ux;adobe creative suite,arts;digital media,Biostatistician,0.92,6,6,2,2
+Zion Collins,Bachelor's,html;css;javascript,healthcare;ai,Graphic Designer,0.93,9,9,5,9
+Emery Gray,Master's,c++;embedded systems;iot,business;management,Data Engineer,0.94,8,5,6,2
+Nolan Long,PhD,sql;data warehousing;etl,finance;analytics,Content Strategist,0.95,2,8,2,8
+Ivy Foster,Bachelor's,javascript;react;node.js,marketing;communications,Data Analyst,0.85,8,5,2,2
+Tristan Powell,Master's,digital marketing;seo;content creation,cybersecurity;technology,Business Analyst,0.86,2,2,2,5
+Olivia Butler,PhD,project management;agile;communication,academia;research,Automation Engineer,0.87,3,5,3,2
+Damian Barnes,Bachelor's,python;deep learning;statistics,web development;design,UX Designer,0.88,9,8,9,5
+Sienna James,Master's,financial analysis;excel;econometrics,technology;data science,Machine Learning Engineer,0.89,2,3,9,5
+Jasper Morgan,PhD,research;statistical analysis;python,software development;ai,Digital Marketer,0.9,8,2,3,9
+Eleanor Ross,Bachelor's,cloud computing;devops;python,arts;digital media,Financial Analyst,0.91,8,3,5,6
+Ezra Reed,Master's,java;algorithms;data structures,healthcare;ai,Content Strategist,0.92,8,3,2,9
+Lola Rivera,PhD,ux research;prototyping;interaction design,business;management,Mobile Developer,0.93,6,5,5,3
+Easton Perry,Bachelor's,copywriting;seo;social media,finance;analytics,UX Researcher,0.94,2,9,2,8
+Aurora Jenkins,Master's,network security;linux;python,marketing;communications,Cybersecurity Specialist,0.95,9,5,3,6
+Camden Collins,PhD,c#;.net;software design,cybersecurity;technology,Data Analyst,0.85,8,6,2,5
+Hazel Gray,Bachelor's,data visualization;python;r,academia;research,Cloud Engineer,0.86,9,3,2,5
+Micah Long,Master's,machine learning;big data;python,web development;design,Graphic Designer,0.87,8,8,9,5

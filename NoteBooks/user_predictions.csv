@@ -1,0 +1,7 @@
+Name,Education,Skills,Interests,programming_skills,logical_thinking,math_score,problem_solving,Recommended_Career,Recommendation_Score,Programming_Skills,Logical_Thinking,Math_Score,Problem_Solving,Recommended_Career_1,Recommendation_Score_1,Recommended_Career_2,Recommendation_Score_2,Recommended_Career_3,Recommendation_Score_3,Recommended_Career_4,Recommendation_Score_4,Recommended_Career_5,Recommendation_Score_5
+Sample User,Bachelor's,"python, machine learning, statistics","data science, AI",9.0,8.0,9.0,8.0,AI Specialist,,,,,,,,,,,,,,,
+Talha,Bachelors,"ai, ml, math, stats","data science. ai, ml, project management",5.0,9.0,9.0,9.0,Project Manager,Top 1 of 5,,,,,,,,,,,,,,
+Talha,bachelors,"ai, ml, scrum, gile, project managemnt","data science, ai, ml, project management, scrum, agile",5.0,9.0,9.0,9.0,Project Manager,Top 1 of 5,,,,,,,,,,,,,,
+"data science, ai, ml, project management, scrum, agile",,"data science, ai, ml, project management, scrum, agile","data science, ai, ml, project management, scrum, agile",5.0,9.0,9.0,9.0,Project Manager,Top 1 of 5,,,,,,,,,,,,,,
+Talha,,,,5.0,5.0,5.0,5.0,Digital Marketer,Top 1 of 5,,,,,,,,,,,,,,
+talha,bachelors,"ai, ml, business analyst","ai, ml",,,,,,,0.0,0.0,0.0,0.0,AI Researcher,5.0,Business Analyst,9.0,Machine Learning Engineer,5.0,Digital Marketer,9.0,UX Researcher,N/A
