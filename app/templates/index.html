@@ -1,10 +1,113 @@
+<!-- signup.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup - Career Counseling System</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f5fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .signup-container {
+      background-color: white;
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    .logo {
+      width: 200px;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      color: #5a2d82;
+      margin-bottom: 1.5rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    select {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      background-color: #f4f0fa;
+    }
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #a363d4;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #8f50c8;
+    }
+    .login-link {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+    .login-link a {
+      color: #5a2d82;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .flash {
+      background-color: #e3d4f2;
+      color: #4b0082;
+      padding: 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+  </style>
 </head>
 <body>
+  <div class="signup-container">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Career-Mint Logo" class="logo">
+    <h2>Sign Up</h2>
 
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for msg in messages %}
+          <div class="flash">{{ msg }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <form action="/signup" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="number" name="age" placeholder="Age" required min="10" max="99" />
+      <select name="gender" required>
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Create Account</button>
+    </form>
+
+    <div class="login-link">
+      Already have an account? <a href="{{ url_for('login') }}">Log in</a>
+    </div>
+  </div>
 </body>
 </html>

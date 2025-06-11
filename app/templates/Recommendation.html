@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Recommendations</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f5fc;
+    }
+    header {
+            background-color: #a363d4;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-left {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: #fff;
+          color: #a363d4;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+        }
+
+        .center-title {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 1.8rem;
+          font-weight: bold;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header img {
+            height: 40px;
+        }
+        .welcome {
+            font-size: 1.25rem;
+        }
+    .container {
+      max-width: 800px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 1.5rem auto;
+      width: 200px;
+    }
+    h2 {
+      text-align: center;
+      color: #5a2d82;
+      margin-bottom: 2rem;
+    }
+    .career-list {
+      list-style: none;
+      padding: 0;
+    }
+    .career-item {
+      background: #f0eaff;
+      margin: 1rem 0;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .career-name {
+      font-size: 1.1rem;
+      color: #5a2d82;
+    }
+    .roadmap-button {
+      background-color: #a363d4;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .roadmap-button:hover {
+      background-color: #8f50c8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="header-left">
+        <img src="{{ url_for('static', filename='avatar.png') }}" class="avatar">
+        <div class="welcome">Welcome, {{ user.name }}</div>
+      </div>
+      <div class="center-title">Career-Mint</div>
+    </header>
+  <div class="container">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="CareerGuru Logo" class="logo">
+    <h2>Top 5 Recommended Careers for You</h2>
+    <ul class="career-list">
+      {% for career in recommended_careers %}
+      <li class="career-item">
+        <span class="career-name">{{ career }}</span>
+        <form action="/roadmap" method="POST" style="margin: 0;">
+          <input type="hidden" name="selected_career" value="{{ career }}" />
+          <button type="submit" class="roadmap-button">Show Roadmap</button>
+        </form>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+    "bilal@gmail.com": {
+        "name": "Bilal",
+        "gender": "Male",
+        "age": "23",
+        "password": "bilal"
+    },
+    "raheel@gmail.com": {
+        "name": "Raheel Hasan",
+        "gender": "Male",
+        "age": "21",
+        "password": "raheel",
+        "latest_quiz": {
+            "interests": "Programming, coding",
+            "skills": "python, C#, unity game development, oop, data structures",
+            "programming_skills": 8,
+            "logical_skills": 4,
+            "problemSolving_skills": 4,
+            "maths_score": 10
+        }
+    },
+    "talha@gmail.com": {
+        "name": "talha",
+        "gender": "Male",
+        "age": "20",
+        "password": "talha",
+        "latest_quiz": {
+            "interests": "software development, coding",
+            "skills": "Programming, coding",
+            "programming_skills": 4,
+            "logical_skills": 5,
+            "problemSolving_skills": 7,
+            "maths_score": 6
+        }
+    }
+}

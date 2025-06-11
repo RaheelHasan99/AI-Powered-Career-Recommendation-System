@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Roadmap</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f5fc;
+    }
+    header {
+            background-color: #a363d4;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-left {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: #fff;
+          color: #a363d4;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+        }
+
+        .center-title {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 1.8rem;
+          font-weight: bold;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header img {
+            height: 40px;
+        }
+        .welcome {
+            font-size: 1.25rem;
+        }
+    .container {
+      max-width: 800px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 1.5rem auto;
+      width: 200px;
+    }
+    h2 {
+      text-align: center;
+      color: #5a2d82;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      color: #7b3fe4;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 2rem;
+    }
+    li {
+      margin-bottom: 0.6rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="header-left">
+        <img src="{{ url_for('static', filename='avatar.png') }}" class="avatar">
+        <div class="welcome">Welcome, {{ user.name }}</div>
+      </div>
+      <div class="center-title">Career-Mint</div>
+    </header>
+  <div class="container">
+  <img src="{{ url_for('static', filename='logo.png') }}" alt="Career-Mint Logo" class="logo">
+  <h2>{{ selected_career }}</h2>
+  <h3>Career Roadmap</h3>
+
+  {% for level, steps in roadmap_dict.items() %}
+    <h3>{{ level }}</h3>
+    <ul>
+      {% for step in steps %}
+        <li>{{ step }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
+</body>
+</html>

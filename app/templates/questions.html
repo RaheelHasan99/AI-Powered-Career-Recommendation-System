@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz - Career Counseling</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f5fc;
+    }
+    .logo {
+      width: 50px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    header {
+            background-color: #a363d4;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-left {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: #fff;
+          color: #a363d4;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+        }
+
+        .center-title {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 1.8rem;
+          font-weight: bold;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header img {
+            height: 40px;
+        }
+        .welcome {
+            font-size: 1.25rem;
+        }
+
+    .quiz-container {
+      max-width: 600px;
+      background: white;
+      margin: 3rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 1.5rem auto;
+      width: 200px;
+    }
+    h2 {
+      text-align: center;
+      color: #5a2d82;
+      margin-bottom: 2rem;
+    }
+    .question {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .option {
+      display: block;
+      padding: 0.5rem;
+      border-radius: 6px;
+      background: #f0eaff;
+      margin: 0.5rem 0;
+      cursor: pointer;
+    }
+    .option:hover {
+      background: #e0d4fc;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .next-button {
+      background-color: #a363d4;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .next-button:hover {
+      background-color: #8f50c8;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.6rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="header-left">
+        <img src="{{ url_for('static', filename='avatar.png') }}" class="avatar">
+        <div class="welcome">Welcome, {{ user.name }}</div>
+      </div>
+      <div class="center-title">Career-Mint</div>
+    </header>
+  <div class="quiz-container">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="CareerGuru Logo" class="logo">
+    <h2>Career Quiz</h2>
+    <h3>Question {{ current_question_index }} of 10</h3>
+    <form action="/questions" method="POST">
+      <div class="question">{{ current_question }}</div>
+
+      {% if current_question_index <= 2 %}
+        <input type="text" name="answer" placeholder="Type your answer..." required>
+      {% else %}
+        <div class="options">
+          {% for option in options %}
+          <label class="option">
+            <input type="radio" name="answer" value="{{ option }}" required> {{ option }}
+          </label>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="button-container">
+        <button class="next-button" type="submit">Next</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

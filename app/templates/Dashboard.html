@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Career Counseling System</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f5fc;
+        }
+
+        .logo{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #fff;
+
+
+        }
+        header {
+            background-color: #a363d4;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-left {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: #fff;
+          color: #a363d4;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+        }
+
+        .center-title {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 1.8rem;
+          font-weight: bold;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header img {
+            height: 40px;
+        }
+        .welcome {
+            font-size: 1.25rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .card-content {
+            max-width: 70%;
+        }
+        .card h2 {
+            color: #5a2d82;
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        a.button {
+            display: inline-block;
+            background-color: #a363d4;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        a.button:hover {
+            background-color: #8f50c8;
+        }
+        .motivation {
+            background-color: #e8d9f9;
+            padding: 1rem;
+            border-left: 4px solid #a363d4;
+            margin-bottom: 2rem;
+            font-style: italic;
+            color: #4b007d;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <div class="header-left">
+        <img src="{{ url_for('static', filename='avatar.png') }}" class="avatar">
+        <div class="welcome">Welcome, {{ user.name }}</div>
+      </div>
+      <div class="center-title">Career-Mint</div>
+    </header>
+    <div class="container">
+        <div class="motivation">
+            "Your future depends on what you do today. Let’s find the right path together!"
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h2>Ready to Begin?</h2>
+                <p>Click below to start your personalized career quiz.</p>
+                <a href="{{ url_for('start_quiz') }}" class="button">Start Quiz</a>
+            </div>
+            <img src="{{ url_for('static', filename='quiz.png') }}" alt="Quiz Icon" width="60">
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h2>Past Recommendations</h2>
+                <p>View your previously recommended career paths and explore roadmaps.</p>
+                <a href="{{ url_for('history') }}" class="button">View History</a>
+            </div>
+            <img src="{{ url_for('static', filename='history.png') }}" alt="History Icon" width="60">
+        </div>
+    </div>
+</body>
+</html>
